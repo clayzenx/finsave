@@ -1,0 +1,26 @@
+.slide-reverse-enter {
+  opacity: 0;
+  transform: translateX(200px);
+}
+
+.slide-reverse-enter-active {
+  transition: all .25s;
+  transition-delay: .25s;
+}
+
+.slide-reverse-enter-to {
+  opacity: 1;
+}
+
+.slide-revers-leave {
+  opacity: 1;
+}
+
+.slide-reverse-leave-active {
+  transition: .25s;
+}
+
+.slide-reverse-leave-to {
+  opacity: 0;
+  transform: translateX(-200px);
+}
