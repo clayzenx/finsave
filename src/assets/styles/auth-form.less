@@ -1,0 +1,22 @@
+#auth-page {
+    margin-top: 5px;
+  }
+
+  .auth-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &.tablet,
+    &.laptop,
+    &.desktop {
+      width: 500px;
+      height: 250px;
+      margin: 0 auto;
+    }
+    &.mobile {
+      max-width: 200px;
+      margin: 0 auto;
+      height: 80vh;
+    }
+}

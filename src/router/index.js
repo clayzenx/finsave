@@ -19,7 +19,12 @@ const routes = [
     path: '/contacts',
     name: 'Контакты',
     component: () => import('../views/Contacts.vue')
-  }
+  },
+  {
+    path: '/config',
+    name: 'Настройки',
+    component: () => import('../views/Config.vue')
+  },
 ]
 
 const router = new VueRouter({
