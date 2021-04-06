@@ -9,6 +9,7 @@
       <tabs :tabs="tabs" @changeDirection='changeDirection'></tabs>
     </div>
     <auth v-else/>
+    <p>hello</p>
   </div>
 </template>
 
